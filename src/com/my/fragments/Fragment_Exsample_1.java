@@ -21,12 +21,6 @@ public class Fragment_Exsample_1 extends Fragment {
     }
 
     @Override
-    public void onInflate(AttributeSet attrs, Bundle savedInstanceState) {
-        // TODO Auto-generated method stub
-        super.onInflate(attrs, savedInstanceState);
-    }
-
-    @Override
     public void onInflate(Activity activity, AttributeSet attrs,
             Bundle savedInstanceState) {
         // TODO Auto-generated method stub
