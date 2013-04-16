@@ -23,10 +23,6 @@ public class MainActivity extends Activity {
         super.onResume();
     }
     
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        // TODO Auto-generated method stub
-        return super.onKeyDown(keyCode, event);
-    }
+    public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {return true;};
 
 }
