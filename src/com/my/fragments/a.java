@@ -3,7 +3,7 @@ package com.my.fragments;
 import android.R.integer;
 
 public class a {
-
+//Branch修改了啊
     int q=10;
 
     int i=200;
@@ -15,5 +15,6 @@ public class a {
     int zhuganfenzhi1=30;
     
     int qqdw=1;
+    int branch=10;
 
 }
