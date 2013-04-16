@@ -14,5 +14,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main_activity);
         Log.e("", "");
     }
+    
+    @Override
+    protected void onPause() {
+        // TODO Auto-generated method stub
+        super.onPause();
+    }
 
 }
