@@ -4,9 +4,11 @@ public class a {
 
     int q=10;
 
-    int i=104;
+    int i=200;
     
     int qq=10;
+    
+    int zhugan1=10;
 
 
 }
