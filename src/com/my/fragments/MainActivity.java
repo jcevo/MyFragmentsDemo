@@ -5,6 +5,8 @@ import com.example.fragmentsdemo.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
+
 
 public class MainActivity extends Activity {
 
@@ -12,6 +14,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
+        Log.d("", "");
         Log.e("", "");
         Log.v("", "");
     }
@@ -34,7 +37,10 @@ public class MainActivity extends Activity {
         super.onResume();
         Log.e("", "ss");
     }
-
-    
-    public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {return false;};
+   
+   @Override
+public boolean onKeyDown(int keyCode, KeyEvent event) {
+    // TODO Auto-generated method stub
+    return super.onKeyDown(keyCode, event);
+}
 }
