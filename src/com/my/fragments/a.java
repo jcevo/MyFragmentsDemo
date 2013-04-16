@@ -12,7 +12,7 @@ public class a {
     
     int zhugan1=10;
     int fenzhi1=12;
-    int zhuganfenzhi1=30;
+    int zhuganfenzhi1=999;
     
     int qqdw=1;
     int branch=10;
