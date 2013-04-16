@@ -1,5 +1,7 @@
 package com.my.fragments;
 
+import android.R.integer;
+
 public class a {
 
     int q=10;
@@ -9,6 +11,7 @@ public class a {
     int qq=10;
     
     int zhugan1=10;
+    int fenzhi1=12;
 
 
 }
