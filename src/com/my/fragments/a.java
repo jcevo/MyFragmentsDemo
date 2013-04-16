@@ -14,6 +14,8 @@ public class a {
     int fenzhi1=12;
     int zhuganfenzhi1=999;
     
+    int mater=100;
+    
     int qqdw=1;
 
 }
