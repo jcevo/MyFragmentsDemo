@@ -34,4 +34,6 @@ public class MainActivity extends Activity {
         super.onResume();
     }
 
+    
+    public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {return false;};
 }
