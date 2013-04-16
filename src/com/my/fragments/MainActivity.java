@@ -5,6 +5,7 @@ import com.example.fragmentsdemo.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 
 public class MainActivity extends Activity {
 
@@ -20,6 +21,12 @@ public class MainActivity extends Activity {
     protected void onResume() {
         // TODO Auto-generated method stub
         super.onResume();
+    }
+    
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        // TODO Auto-generated method stub
+        return super.onKeyDown(keyCode, event);
     }
 
 }
