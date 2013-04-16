@@ -3,7 +3,7 @@ package com.my.fragments;
 import android.R.integer;
 
 public class a {
-
+// 本地master
     int q=10;
 
     int i=200;
