@@ -18,7 +18,7 @@ public class a {
     int fenzhi1=12;
     int zhuganfenzhi1=999;
     
-    int mater=201;
+    int mater=202;
     
     int qqdw=1;
     int branch=10;
